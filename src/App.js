@@ -16,7 +16,7 @@ const App = () => {
   // const fade = useSpring({ from: { opacity: 0 }, opacity: 1 });
 
   return (
-    <animated.div class="App" style={fade}>
+    <animated.div className="App" style={fade}>
       <header className="App-header">
         <img src={logo} alt="Logo" className="logo" />
         <button className="menu-button">Menu</button>
