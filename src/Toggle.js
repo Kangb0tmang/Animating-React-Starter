@@ -4,8 +4,6 @@ import { useSpring, animated } from "react-spring";
 const Toggle = () => {
   const [isToggled, setToggle] = useState(false);
   const { color, y } = useSpring({
-    // opacity: isToggled ? 1 : 0,
-    // fontSize: isToggled ? "2rem" : "5em",
     color: isToggled ? "dodgerblue" : "springgreen",
     y: isToggled ? 0 : -50
   });
@@ -24,8 +22,5 @@ const Toggle = () => {
     </div>
   );
 };
-
-// Can use this for passing in an animated component
-// const AnimatedTitle = animated(componentName);
 
 export default Toggle;
