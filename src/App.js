@@ -3,7 +3,7 @@ import { useSpring, animated } from "react-spring";
 import Nav from "./Nav";
 import Modal from "./Modal";
 import Accordion from "./Accordion";
-import Gesture from "./Gesture";
+import Boxes from "./Boxes";
 import Checkout from "./Checkout";
 import logo from "./logo.svg";
 import "./App.css";
@@ -34,7 +34,7 @@ const App = () => {
       <main>
         <Modal />
         <Accordion />
-        <Gesture />
+        <Boxes />
       </main>
       <Checkout isOpen={isNavOpen} />
     </animated.div>
